@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 
 class MainDrawer extends StatelessWidget {
@@ -53,7 +51,6 @@ class MainDrawer extends StatelessWidget {
         ListTile(
           onTap: () {
             onSelectScreen('filter');
-
           },
           leading: Icon(
             Icons.settings,
